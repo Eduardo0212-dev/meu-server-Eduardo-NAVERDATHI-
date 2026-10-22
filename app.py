@@ -1,6 +1,6 @@
-from flask import flask, render_templace
+from Flask import Flask, render_templace
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
